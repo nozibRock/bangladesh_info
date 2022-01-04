@@ -52,6 +52,7 @@ body {
     width: 30%;
     border: 1px solid gray;
     box-shadow: 4px 4px 12px gray;
+    padding: 1%;
 }
 .dhaka img {
     width: 100%;
