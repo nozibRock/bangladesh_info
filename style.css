@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: green;
+    text-align: center;
+}
+.parent {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.left_side {
+    width: 45%;
+}
+.right_side {
+    width: 45%;
+}
+
+.photo img {
+    width: 100%;
+}
+.details_btn {
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, green, red, green);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+}
+.details_btn:hover {
+    background-image: linear-gradient(3000deg, green, red, green);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.second_section {
+    text-align: center;
+    margin: 50px 0;
+
+}
+.all-div {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dhaka {
+    width: 30%;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+}
+.dhaka img {
+    width: 100%;
+}
+.details {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.details:hover {
+    background: gray;
+    color: whitesmoke;
+}
